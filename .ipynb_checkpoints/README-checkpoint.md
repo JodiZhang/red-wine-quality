@@ -1,15 +1,15 @@
 <h4>Red Wine Quality Prediction</h4>
 
-##Description
+<h6>Description</h6>
 
 The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult the reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
 
 These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones).
 
-####Data
+<h6>Data</h6>
 winequality-red.csv
 
-###Features
+<h6>Features</h6>
 For more information, read [Cortez et al., 2009].
 Input variables (based on physicochemical tests):
 1 - fixed acidity
@@ -26,8 +26,8 @@ Input variables (based on physicochemical tests):
 Output variable (based on sensory data):
 12 - quality (score between 0 and 10)
 
-####Type of Machine Learning Model Applied
+<h6>Type of Machine Learning Model Applied</h6>
 Random Forest Classification Model
 
-####Performance Metric
+<h6>Performance Metric</h6>
 F1-Score
